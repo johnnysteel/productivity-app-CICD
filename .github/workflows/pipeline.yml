@@ -7,7 +7,7 @@ on:
     branches:
       - main
 
-# Set environment variables
+# Set environment variables.
 env:
   MONGODB_URI: ${{ secrets.MONGODB_URI }}
   TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
